@@ -1,0 +1,10 @@
+{
+  "actorSpecification": 1,
+  "name": "japan-watch-market-scraper-kr",
+  "title": "일본 중고 시계 마켓 — 크로스샵 비교（Jackroad+Kitamura）",
+  "version": "0.1",
+  "buildTag": "latest",
+  "dockerfile": "./Dockerfile",
+  "readme": "./README.md",
+  "input": "./INPUT_SCHEMA.json"
+}
