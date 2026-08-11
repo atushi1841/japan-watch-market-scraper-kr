@@ -3,6 +3,19 @@
   "type": "object",
   "schemaVersion": 1,
   "properties": {
+    "statsMode": {
+      "title": "相場統計モード",
+      "type": "boolean",
+      "description": "有効にすると通常のデータプッシュを行わず、集計結果のみを出力します",
+      "default": false,
+      "editor": "checkbox"
+    },
+    "statsKeyword": {
+      "title": "統計用キーワード",
+      "type": "string",
+      "description": "統計モード時にタイトル部分一致で絞り込むキーワード",
+      "editor": "textfield"
+    },
     "searchKeyword": {
       "title": "Search Keyword",
       "type": "string",
